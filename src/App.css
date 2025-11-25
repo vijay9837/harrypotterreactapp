@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Caveat", cursive;
+}
+#root {
+  height: 100vh;
+}
+.App {
+  text-align: center;
+  height: 100%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.w-80 {
+  width: 80% !important;
+}
+.h-80 {
+  height: 80% !important;
+}
+.personal-details-text {
+  font-size: 30px;
+  font-weight: 600;
+}
+.charater-image {
+  width: 190px;
+}
+.bookimg {
+  border-radius: 10px !important;
+}
+
+@media (max-width: 800px) {
+  .fs-4 {
+    font-size: 17px !important;
+  }
+  .charater-image {
+    width: 150px;
+  }
+  .personal-details-text {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 380px) {
+  .w-80 {
+    width: 90% !important;
+  }
+  .fs-4 {
+    font-size: 13px !important;
+  }
+  .charater-image {
+    width: 150px;
+  }
+  .personal-details-text {
+    font-size: 1.2rem;
+  }
+  .searchbox {
+    width: 80% !important;
+  }
+  .bookimg {
+    border-radius: 6px;
+  }
+}
